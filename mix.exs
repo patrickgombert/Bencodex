@@ -6,8 +6,8 @@ defmodule Bencodex.Mixfile do
      version: "1.0.0",
      elixir: "~> 1.0",
      description: "Encoder and decoder for the bencode format",
-     package: package,
-     deps: deps]
+     package: package(),
+     deps: deps()]
   end
 
   def application do
